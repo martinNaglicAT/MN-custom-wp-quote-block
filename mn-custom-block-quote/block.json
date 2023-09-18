@@ -1,0 +1,10 @@
+{
+    "apiVersion": 3,
+    "title": "Custom Quote",
+    "name": "mn-custom-block-quote/custom-quote-block",
+    "category": "text",
+    "icon": "format-quote",
+    //"editorStyle": "file:./css/editor.css",
+    //"style": "file:./css/style.css",
+    "editorScript": "file:./build/index.js"
+}

@@ -1,0 +1,41 @@
+.wp-block-mn-custom-block-quote-custom-quote-block{
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px 30px;
+    max-width:840px;
+    margin:20px auto;
+}
+
+.wp-block-mn-custom-block-quote-custom-quote-block.is-style-green{
+    background: rgba(57,209,180,.12);
+}
+
+
+.wp-block-mn-custom-block-quote-custom-quote-block.is-style-line{
+    /*background: none !important;*/
+    color: rgba(0,0,0,.75) !important;
+    border-left: 4px solid rgba(0,0,0,.75) !important;
+    border-radius: 0 !important;
+    padding: 0 1.5rem !important;
+    font-weight: 500 !important;
+    /*margin: 30px !important;*/
+}
+
+.wp-block-mn-custom-block-quote-custom-quote-block.is-style-none{
+    /*background: none !important;*/
+    font-family: Kanit;
+}
+
+.custom-quote-toolbar{
+    border:none;
+}
+
+.custom-quote-toolbar .components-toolbar {
+    flex-direction: column;
+    width: 100%;
+}
+
+.custom-quote-toolbar .components-toolbar__control {
+    justify-content: space-around;
+}
